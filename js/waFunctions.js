@@ -9,13 +9,13 @@ const foodziDonateButton = () => {
 
     const url = "https://wa.me/6285787121453?text=" 
     + "*DONASI Mba 'FoodZi' ACTING*" + "%0a"
-    + "Nama: " + `*${nama}*` + "%0a"
-    + "Alamat: " + `*${alamat}*` + "%0a"
-    + "Jabatan: " + `*${jabatan}*`  + "%0a"
-    + "Jenis Makanan: " + `*${makanan}*`  + "%0a"
-    + "Jumlah Porsi: " + `*${porsi}*`  + "%0a"
-    + "Total Donasi: " + `*${donasi}*`  + "%0a"
-    + "Keterangan: " + `*${keterangan}*`; 
+    + "Nama: " + `${nama}` + "%0a"
+    + "Alamat: " + `${alamat}` + "%0a"
+    + "Jabatan: " + `${jabatan}`  + "%0a"
+    + "Jenis Makanan: " + `${makanan}`  + "%0a"
+    + "Jumlah Porsi: " + `${porsi}`  + "%0a"
+    + "Total Donasi: " + `Rp. ${donasi}`  + "%0a"
+    + "Keterangan: " + `${keterangan}`; 
     
     window.open(url, '_blank').focus()
 }
@@ -32,14 +32,14 @@ const kbButton = () => {
 
     const url = "https://wa.me/6285787121453?text=" 
     + "*CHECK IN LAYANAN KB*" + "%0a"
-    + "Nama: " + `*${nama}*` + "%0a"
-    + "Nik: " + `*${nik}*` + "%0a"
-    + "No. KK: " + `*${kk}*` + "%0a"
-    + "Alamat: " + `*${alamat}*` + "%0a"
-    + "Kecamatan: " + `*${kecamatan}*`  + "%0a"
-    + "Jumlah Anak: " + `*${anak}*`  + "%0a"
-    + "Jenis KB: " + `*${jenis}*`  + "%0a"
-    + "Keterangan: " + `*${keterangan}*`; 
+    + "Nama: " + `${nama}` + "%0a"
+    + "Nik: " + `${nik}` + "%0a"
+    + "No. KK: " + `${kk}` + "%0a"
+    + "Alamat: " + `${alamat}` + "%0a"
+    + "Kecamatan: " + `${kecamatan}`  + "%0a"
+    + "Jumlah Anak: " + `${anak}`  + "%0a"
+    + "Jenis KB: " + `${jenis}`  + "%0a"
+    + "Keterangan: " + `${keterangan}`; 
     
     window.open(url, '_blank').focus()
 }
