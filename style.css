@@ -30,9 +30,14 @@ h2{
     border-radius: 15px;
 }
 
-/* .fa{
-
-} */
+.fa{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
 
 .img-center{
     display: flex;
