@@ -3,7 +3,6 @@ const foodziDonateButton = () => {
     let alamat = document.getElementById('alamatfoodzi').value
     let jabatan = document.getElementById('jabatanfoodzi').value
     let makanan = document.getElementById('makananfoodzi').value
-    let porsi = document.getElementById('porsifoodzi').value
     let donasi = document.getElementById('donasifoodzi').value
     let keterangan = document.getElementById('keteranganfoodzi').value
 
@@ -13,7 +12,6 @@ const foodziDonateButton = () => {
     + "Alamat: " + `${alamat}` + "%0a"
     + "Jabatan: " + `${jabatan}`  + "%0a"
     + "Jenis Makanan: " + `${makanan}`  + "%0a"
-    + "Jumlah Porsi: " + `${porsi}`  + "%0a"
     + "Total Donasi: " + `Rp. ${donasi}`  + "%0a"
     + "Keterangan: " + `${keterangan}`; 
     
