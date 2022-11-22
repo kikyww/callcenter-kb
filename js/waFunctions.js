@@ -6,7 +6,7 @@ const foodziDonateButton = () => {
     let donasi = document.getElementById('donasifoodzi').value
     let keterangan = document.getElementById('keteranganfoodzi').value
 
-    const url = "https://wa.me/6285787121453?text=" 
+    const url = "https://wa.me/6281347971941?text=" 
     + "*DONASI Mba 'FoodZi' ACTING*" + "%0a"
     + "Nama: " + `${nama}` + "%0a"
     + "Alamat: " + `${alamat}` + "%0a"
@@ -28,7 +28,7 @@ const kbButton = () => {
     let jenis = document.getElementById('jeniskb').value
     let keterangan = document.getElementById('keterangankb').value
 
-    const url = "https://wa.me/6285787121453?text=" 
+    const url = "https://wa.me/6281347971941?text=" 
     + "*CHECK IN LAYANAN KB*" + "%0a"
     + "Nama: " + `${nama}` + "%0a"
     + "Nik: " + `${nik}` + "%0a"
